@@ -1,5 +1,5 @@
 # github-add-user
-Script to auto-add a github user.
+Script to add a github user or users to one or more repositories as a collaborator.
 
 This is adapted from miraculixx/github-add-user.  Real credit goes to github.com/miraculixx - my additions here are minor.
 
