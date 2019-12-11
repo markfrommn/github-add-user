@@ -8,4 +8,11 @@ Enhancements are:
 * Support for taking API token from a file (avoid credentials on command line).
 * Support for specifying an Org.
 * Support for specifying a GHE endpoint.
+* Support for specifying permissions.
+* Support for listing contributors as well as collaborators.
+
+TO-DO is to either redo in Python or use a helper so the JSON responses can be more robustly parsed.
+
+Note experimentation showed that the permissions parameter to the add collaborator API doesn't seem to work 
+as a URL argument, hence the need to put it in the PUT body.
 
